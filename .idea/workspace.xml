@@ -1,0 +1,334 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="19db1820-c8c5-4d6e-85a1-12c5f4db1ff1" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1ogZCNHkiB5oawwZUGX7uAFuT26" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="org.jetbrains.plugins.github.ui.GithubSettingsConfigurable" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\workspace_python\hogwarts_appium" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Python tests.pytest for test_contact1.TestContact.test_contact">
+    <configuration default="true" type="PythonConfigurationType" factoryName="Python">
+      <module name="hogwarts_appium" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="D:\workspace_python\python_env\Scripts\python.exe" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/test_firstappium.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="pytest for test_contact1.TestContact.test_contact" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+      <module name="hogwarts_appium" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/app/testcases" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="_new_keywords" value="&quot;&quot;" />
+      <option name="_new_parameters" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;test_contact1.TestContact.test_contact&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="pytest for test_contact.TestWeiXin" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+      <module name="hogwarts_appium" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/test_case" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="_new_keywords" value="&quot;&quot;" />
+      <option name="_new_parameters" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;test_contact.TestWeiXin&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="pytest for test_contact.TestWeiXin.test_addcontact" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+      <module name="hogwarts_appium" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/test_case" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="_new_keywords" value="&quot;&quot;" />
+      <option name="_new_parameters" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;test_contact.TestWeiXin.test_addcontact&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="pytest for test_search.TestXueQiu" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+      <module name="hogwarts_appium" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/test_case" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="_new_keywords" value="&quot;&quot;" />
+      <option name="_new_parameters" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;test_search.TestXueQiu&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="pytest for test_search.TestXueQiu.test_search" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+      <module name="hogwarts_appium" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/test_case" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="_new_keywords" value="&quot;&quot;" />
+      <option name="_new_parameters" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;test_search.TestXueQiu.test_search&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="pytest in test_dwpytest.py" type="tests" factoryName="py.test" nameIsGenerated="true">
+      <module name="hogwarts_appium" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="D:\workspace_python\python_env\Scripts\python.exe" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="_new_keywords" value="&quot;&quot;" />
+      <option name="_new_parameters" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/test_dwpytest.py&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python tests.pytest for test_contact1.TestContact.test_contact" />
+        <item itemvalue="Python tests.pytest for test_contact.TestWeiXin.test_addcontact" />
+        <item itemvalue="Python tests.pytest for test_contact.TestWeiXin" />
+        <item itemvalue="Python tests.pytest for test_search.TestXueQiu.test_search" />
+        <item itemvalue="Python tests.pytest for test_search.TestXueQiu" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="19db1820-c8c5-4d6e-85a1-12c5f4db1ff1" name="Default Changelist" comment="" />
+      <created>1613710065327</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1613710065327</updated>
+      <workItem from="1613710066556" duration="4156000" />
+      <workItem from="1613717819698" duration="1552000" />
+      <workItem from="1613721378920" duration="4328000" />
+      <workItem from="1613729417815" duration="4442000" />
+      <workItem from="1613741680556" duration="1060000" />
+      <workItem from="1613793721047" duration="5273000" />
+      <workItem from="1613877408019" duration="3472000" />
+      <workItem from="1613883332611" duration="2065000" />
+      <workItem from="1613960786919" duration="13558000" />
+      <workItem from="1614048400012" duration="4308000" />
+      <workItem from="1614052744747" duration="11470000" />
+      <workItem from="1614227934902" duration="10608000" />
+      <workItem from="1614311451351" duration="1903000" />
+      <workItem from="1614317172188" duration="2023000" />
+      <workItem from="1614320080847" duration="17365000" />
+      <workItem from="1614350630513" duration="153000" />
+    </task>
+    <task id="LOCAL-00001" summary="commit hogwarts_appium">
+      <created>1614350328715</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1614350328715</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="2" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="commit hogwarts_appium" />
+    <option name="LAST_COMMIT_MESSAGE" value="commit hogwarts_appium" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="92" y="0" width="1102" height="680" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1613878708483">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="92" y="0" width="1102" height="680" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1280.680/1920.244.1194.794@0.0.1280.680" timestamp="1613727992036" />
+    <state x="92" y="0" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1280.680@0.0.1280.680" timestamp="1613878708483" />
+    <state x="469" y="39" key="EnvironmentVariablesDialog" timestamp="1613710819430">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="469" y="39" key="EnvironmentVariablesDialog/0.0.1280.680@0.0.1280.680" timestamp="1613710819430" />
+    <state x="371" y="36" key="FileChooserDialogImpl" timestamp="1613962269086">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="371" y="36" key="FileChooserDialogImpl/0.0.1280.680/1920.244.1194.794@0.0.1280.680" timestamp="1613727982485" />
+    <state x="371" y="36" key="FileChooserDialogImpl/0.0.1280.680@0.0.1280.680" timestamp="1613962269086" />
+    <state width="1227" height="99" key="GridCell.Tab.0.bottom" timestamp="1614350612111">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="1227" height="238" key="GridCell.Tab.0.bottom/0.0.1280.680/1920.244.1194.794@0.0.1280.680" timestamp="1613729387285" />
+    <state width="1227" height="99" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1614350612111" />
+    <state width="1227" height="99" key="GridCell.Tab.0.center" timestamp="1614350612111">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="1227" height="238" key="GridCell.Tab.0.center/0.0.1280.680/1920.244.1194.794@0.0.1280.680" timestamp="1613729387285" />
+    <state width="1227" height="99" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1614350612111" />
+    <state width="1227" height="99" key="GridCell.Tab.0.left" timestamp="1614350612111">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="1227" height="238" key="GridCell.Tab.0.left/0.0.1280.680/1920.244.1194.794@0.0.1280.680" timestamp="1613729387285" />
+    <state width="1227" height="99" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1614350612111" />
+    <state width="1227" height="99" key="GridCell.Tab.0.right" timestamp="1614350612111">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="1227" height="238" key="GridCell.Tab.0.right/0.0.1280.680/1920.244.1194.794@0.0.1280.680" timestamp="1613729387285" />
+    <state width="1227" height="99" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1614350612111" />
+    <state width="1227" height="188" key="GridCell.Tab.1.bottom" timestamp="1613741509538">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="1227" height="188" key="GridCell.Tab.1.bottom/0.0.1280.680@0.0.1280.680" timestamp="1613741509538" />
+    <state width="1227" height="188" key="GridCell.Tab.1.center" timestamp="1613741509537">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="1227" height="188" key="GridCell.Tab.1.center/0.0.1280.680@0.0.1280.680" timestamp="1613741509537" />
+    <state width="1227" height="188" key="GridCell.Tab.1.left" timestamp="1613741509537">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="1227" height="188" key="GridCell.Tab.1.left/0.0.1280.680@0.0.1280.680" timestamp="1613741509537" />
+    <state width="1227" height="188" key="GridCell.Tab.1.right" timestamp="1613741509538">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="1227" height="188" key="GridCell.Tab.1.right/0.0.1280.680@0.0.1280.680" timestamp="1613741509538" />
+    <state x="404" y="0" key="RollbackChangesDialog" timestamp="1614350105580">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="404" y="0" key="RollbackChangesDialog/0.0.1280.680@0.0.1280.680" timestamp="1614350105580" />
+    <state x="18" y="0" key="SettingsEditor" timestamp="1614350477105">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="18" y="0" key="SettingsEditor/0.0.1280.680/1920.244.1194.794@0.0.1280.680" timestamp="1613727934718" />
+    <state x="18" y="0" key="SettingsEditor/0.0.1280.680@0.0.1280.680" timestamp="1614350477105" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/hogwarts_appium$pytest_for_test_getattr_TestGetAttr_test_assert.coverage" NAME="pytest for test_getattr.TestGetAttr.test_assert Coverage Results" MODIFIED="1614049638416" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/hogwarts_appium$test_dingwei.coverage" NAME="test_dingwei Coverage Results" MODIFIED="1613806475176" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/hogwarts_appium$pytest_for_test_webview_apidemo_TestBrowser_test_webwiew.coverage" NAME="pytest for test_webview_apidemo.TestBrowser.test_webwiew Coverage Results" MODIFIED="1614069239554" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/appium_webview" />
+    <SUITE FILE_PATH="coverage/hogwarts_appium$test_dwpytest.coverage" NAME="test_dwpytest Coverage Results" MODIFIED="1613878683340" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/hogwarts_appium$pytest_in_test_dwpytest_py.coverage" NAME="pytest in test_dwpytest.py Coverage Results" MODIFIED="1613896441208" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/hogwarts_appium$pytest_for_test_dwpytest_TestDW_test_myinfo.coverage" NAME="pytest for test_dwpytest.TestDW.test_myinfo Coverage Results" MODIFIED="1613975604728" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/hogwarts_appium$pytest_for_test_contact1_TestContact_test_contact.coverage" NAME="pytest for test_contact1.TestContact.test_contact Coverage Results" MODIFIED="1614347542939" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/app/testcases" />
+    <SUITE FILE_PATH="coverage/hogwarts_appium$pytest_for_test_search_TestXueQiu_test_search.coverage" NAME="pytest for test_search.TestXueQiu.test_search Coverage Results" MODIFIED="1614323258841" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test_case" />
+    <SUITE FILE_PATH="coverage/hogwarts_appium$pytest_for_test_getattr_TestGetAttr_test_hamrest.coverage" NAME="pytest for test_getattr.TestGetAttr.test_hamrest Coverage Results" MODIFIED="1614050369773" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/hogwarts_appium$pytest_for_test_webdriverwait_TestWebDriverWait_test_wait.coverage" NAME="pytest for test_webdriverwait.TestWebDriverWait.test_wait Coverage Results" MODIFIED="1614050643423" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/hogwarts_appium$test_appiumide.coverage" NAME="test_appiumide Coverage Results" MODIFIED="1613805624476" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/hogwarts_appium$pytest_for_test_dwpytest_TestDW_test_touchaction.coverage" NAME="pytest for test_dwpytest.TestDW.test_touchaction Coverage Results" MODIFIED="1613964768607" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/hogwarts_appium$pytest_for_test_jiaohu_TestBrowser_test_mobile.coverage" NAME="pytest for test_jiaohu.TestBrowser.test_mobile Coverage Results" MODIFIED="1614244252548" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/交互api" />
+    <SUITE FILE_PATH="coverage/hogwarts_appium$pytest_for_test_browser_TestBrowser_test_browser.coverage" NAME="pytest for test_browser.TestBrowser.test_browser Coverage Results" MODIFIED="1614083047127" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/appium_webview" />
+    <SUITE FILE_PATH="coverage/hogwarts_appium$pytest_for_test_jiaohu_TestBrowser.coverage" NAME="pytest for test_jiaohu.TestBrowser Coverage Results" MODIFIED="1614244189449" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/交互api" />
+    <SUITE FILE_PATH="coverage/hogwarts_appium$pytest_for_test_toast_TestToast_test_toast.coverage" NAME="pytest for test_toast.TestToast.test_toast Coverage Results" MODIFIED="1613983849078" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/hogwarts_appium$pytest_for_test_dwpytest_TestDW_test_get_current.coverage" NAME="pytest for test_dwpytest.TestDW.test_get_current Coverage Results" MODIFIED="1613974049477" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/hogwarts_appium$pytest_for_test_dwpytest_TestDW_test_attr.coverage" NAME="pytest for test_dwpytest.TestDW.test_attr Coverage Results" MODIFIED="1613963276482" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/hogwarts_appium$pytest_for_test_touchaction_TestTouchAction_test_touchaction_unlock.coverage" NAME="pytest for test_touchaction.TestTouchAction.test_touchaction_unlock Coverage Results" MODIFIED="1613966571076" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/hogwarts_appium$pytest_for_test_getattr_TestGetAttr_test_get_attr.coverage" NAME="pytest for test_getattr.TestGetAttr.test_get_attr Coverage Results" MODIFIED="1614049708143" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/hogwarts_appium$pytest_for_test_dwpytest_TestDW_test_scroll_find_element.coverage" NAME="pytest for test_dwpytest.TestDW.test_scroll_find_element Coverage Results" MODIFIED="1613976791128" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/hogwarts_appium$pytest_for_test_webview_xueqiu_TestBrowser_test_webwiew.coverage" NAME="pytest for test_webview_xueqiu.TestBrowser.test_webwiew Coverage Results" MODIFIED="1614232417577" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/appium_webview" />
+    <SUITE FILE_PATH="coverage/hogwarts_appium$pytest_for_test_search_TestXueQiu.coverage" NAME="pytest for test_search.TestXueQiu Coverage Results" MODIFIED="1614313522854" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test_case" />
+    <SUITE FILE_PATH="coverage/hogwarts_appium$test_firstappium.coverage" NAME="test_firstappium Coverage Results" MODIFIED="1613742090284" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/hogwarts_appium$pytest_for_test_contact_TestWeiXin_test_addcontact.coverage" NAME="pytest for test_contact.TestWeiXin.test_addcontact Coverage Results" MODIFIED="1614327850324" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test_case" />
+    <SUITE FILE_PATH="coverage/hogwarts_appium$pytest_for_test_param_TestWebDriverWait_test_search.coverage" NAME="pytest for test_param.TestWebDriverWait.test_search Coverage Results" MODIFIED="1614052265917" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/hogwarts_appium$pytest_for_test_param_TestParam_test_search.coverage" NAME="pytest for test_param.TestParam.test_search Coverage Results" MODIFIED="1614053150147" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/hogwarts_appium$pytest_for_test_contact_TestWeiXin.coverage" NAME="pytest for test_contact.TestWeiXin Coverage Results" MODIFIED="1614327000366" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test_case" />
+  </component>
+</project>
