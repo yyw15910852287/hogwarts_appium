@@ -20,7 +20,7 @@ class App(BasePage):
             self._driver = webdriver.Remote("http://localhost:4723/wd/hub", caps)
         else:
             self._driver.launch_app()
-            self._driver.implicitly_wait(10)
+            self.set_implicitly(3)
         return self
 
     def restart(self):

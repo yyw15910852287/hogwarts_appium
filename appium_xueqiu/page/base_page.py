@@ -1,3 +1,7 @@
+import inspect
+import json
+
+import yaml
 from appium.webdriver import WebElement
 from appium.webdriver.webdriver import WebDriver
 from selenium.webdriver.common.by import By
@@ -7,10 +11,13 @@ from appium_xueqiu.page.wrapper import handle_black
 
 
 class BasePage:
+    _params = {}
 
     def __init__(self,driver:WebDriver = None):
         self._driver = driver
 
+    def set_implicitly(self,time):
+        self._driver.implicitly_wait(time)
 
     def finds(self,locator,value:str=None):
         elements : list
@@ -31,33 +38,31 @@ class BasePage:
             element = self._driver.find_element(locator,value)
         return element
 
-
+    @handle_black
     def find_and_get_text(self,locator,value:str=None):
         element:WebElement
-        try:
-            element_text = self._driver.find_element(*locator).text if isinstance(locator,tuple) else self._driver.find_element_text(locator, value).text
-            # if isinstance(locator,tuple):
-            #     #  *locator表示传入元组
-            #     element = self._driver.find_element(*locator)
-            # else:
-            #     element = self._driver.find_element(locator,value)
-            # 找到之后 _error_num 归0
-            self._error_num = 0
-            # 隐式等待恢复原来的等待
-            self._driver.implicitly_wait(10)
-            return element
-        except Exception as e:
-            # 出现异常，将隐式等待设置小一点，快速的处理弹框
-            self._driver.implicitly_wait(1)
-            # 判断异常处理次数
-            if self._error_num > self._max_num:
-                raise e
-            self._error_num += 1
-            # 处理黑名单里面的弹框
-            for ele in self._black_list:
-                elelist = self._driver.find_elements(*ele)
-                if len(elelist)>0:
-                    elelist[0].click()
-                    # 处理完弹框,再将去查找目标元素
-                    return self.find(locator,value)
-            raise e
+        if isinstance(locator,tuple):
+            element_text = self._driver.find_element(*locator).text
+        else:
+            element_text = self._driver.find_element(locator,value).text
+        return element_text
+
+    def steps(self,path):
+        with open(path, encoding="utf-8") as f:
+            name = inspect.stack()[1].function
+            steps = yaml.safe_load(f)[name]
+        # 将python对象转成字符串类型
+        raw = json.dumps(steps)
+        for key,value in self._params.items():
+            raw = raw.replace('${'+key+'}',value)
+        steps = json.loads(raw)
+        for step in steps:
+            if "action" in step.keys():
+                action = step["action"]
+                if "click" == action:
+                    self.find(step["by"], step["locator"]).click()
+                if "send" == action:
+                    self.find(step["by"], step["locator"]).send_keys(step["value"])
+                if "len > 0" == action:
+                    eles = self.finds(step["by"],step["locator"])
+                    return len(eles) > 0
