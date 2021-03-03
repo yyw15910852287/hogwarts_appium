@@ -4,8 +4,6 @@ import json
 import yaml
 from appium.webdriver import WebElement
 from appium.webdriver.webdriver import WebDriver
-from selenium.webdriver.common.by import By
-import logging
 
 from appium_xueqiu.page.wrapper import handle_black
 
@@ -19,6 +17,9 @@ class BasePage:
     def set_implicitly(self,time):
         self._driver.implicitly_wait(time)
 
+    def screenshot(self,name):
+        self._driver.save_screenshot(name)
+
     def finds(self,locator,value:str=None):
         elements : list
         if isinstance(locator,tuple):
@@ -29,8 +30,6 @@ class BasePage:
 
     @handle_black
     def find(self,locator,value:str=None):
-        logging.info(locator)
-        logging.info(value)
         element:WebElement
         if isinstance(locator,tuple):
             element = self._driver.find_element(*locator)
